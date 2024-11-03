@@ -1,0 +1,17 @@
+/* About.css */
+
+.about-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  color: #003366;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}

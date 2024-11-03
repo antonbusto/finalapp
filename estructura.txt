@@ -1,0 +1,27 @@
+finalapp/
+├── src/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── data/
+│   │   └── movies.json
+│   ├── components/
+│   │   ├── CartelPelicula/
+│   │   │   ├── CartelPelicula.tsx
+│   │   │   └── CartelPelicula.css
+│   │   ├── MenuPrincipal/
+│   │   │   ├── MenuPrincipal.tsx
+│   │   │   └── MenuPrincipal.css
+│   │   └── Paginacion/
+│   │       ├── Paginacion.tsx
+│   │       └── Paginacion.css
+│   ├── pages/
+│   │   ├── Home/
+│   │   │   ├── Home.tsx
+│   │   │   └── Home.css
+│   │   ├── Pelicula/
+│   │   │   ├── Pelicula.tsx
+│   │   │   └── Pelicula.css
+│   │   └── About/
+│   │       ├── About.tsx
+│   │       └── About.css
+└── package.json

@@ -1,0 +1,7 @@
+/* App.css */
+
+body {
+  --ion-background-color: #f0f0f5;
+  --ion-text-color: #333;
+  font-family: Arial, sans-serif;
+}

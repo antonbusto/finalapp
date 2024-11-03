@@ -1,0 +1,27 @@
+/* MenuPrincipal.css */
+
+.menu-principal {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.menu-principal ion-toolbar {
+  --background: #003366;
+}
+
+.menu-principal ion-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu-principal a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.menu-principal a:hover {
+  color: #b3e5ff;
+}

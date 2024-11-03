@@ -1,0 +1,101 @@
+/* Estilos de la tarjeta de película */
+.card-pelicula {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  /* Para efectos sutiles de movimiento */
+  will-change: transform, box-shadow;
+}
+
+.card-pelicula:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de la imagen dentro de la tarjeta */
+.card-pelicula img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* Añade un efecto de zoom leve */
+  will-change: opacity, transform;
+}
+
+.card-pelicula:hover img {
+  opacity: 0.95;
+  transform: scale(1.03);
+}
+
+/* Contenedor para los detalles */
+.card-details {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Estilo del título */
+.card-pelicula h2 {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.card-pelicula:hover h2 {
+  color: #0056b3;
+}
+
+/* Estilo de la descripción */
+.card-pelicula p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 8px 0;
+  transition: color 0.3s ease;
+}
+
+.card-pelicula:hover p {
+  color: #333;
+}
+
+/* Estilo del botón */
+.card-button {
+  margin-top: 12px;
+  display: block;
+  text-align: center;
+  padding: 10px 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Efecto leve de botón presionado */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 86, 179, 0.5);
+}
+
+.card-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 86, 179, 0.3);
+}
+

@@ -1,0 +1,21 @@
+/* Pagination.css */
+
+.ion-grid {
+  padding: 10px;
+}
+
+.pagination-button {
+  margin: 10px 5px;
+}
+
+.pagination-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.pagination ion-button {
+  --background: #003366;
+  --color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 20px;
+}

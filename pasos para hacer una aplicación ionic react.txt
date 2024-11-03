@@ -1,0 +1,25 @@
+Crear y moverte al directorio:
+md finalapp
+cd finalapp
+
+Inicializar un proyecto de Node.js:
+npm init -y
+
+Instalar Ionic CLI globalmente:
+npm install -g @ionic/cli
+
+Crear una aplicación Ionic con React:
+ionic start finalapp blank --type=react
+
+Moverte al directorio del proyecto:
+cd finalapp
+
+Instalar dependencias adicionales:
+npm install react-router-dom
+npm install axios
+
+También:
+npm install @ionic/react @ionic/react-router ionicons react-router-dom
+
+Ejecutar la aplicación:
+ionic serve
